@@ -1,0 +1,103 @@
+body{
+    font-family: 'Gill Sans', sans-serif;
+    background-color: bisque;
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+.grid-container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+max-width: 1200px;
+margin: 0 auto;
+gap: 30px;
+border-radius: 10px;
+background-color: rgb(241, 197, 218);
+align-items: center;
+justify-items: center;
+
+}
+.grid-container > div:nth-child(1){
+    display: grid;
+    border: 10px solid rgb(226, 229, 229);
+   padding: 40px;
+   margin-left: 10px;
+  text-align: center;
+}
+.grid-container > div:nth-child(3){
+    display: grid;
+    border: 10px solid rgb(226, 229, 229);
+   padding: 40px;
+   margin-right: 10px;
+  text-align: center;
+}
+.grid-container > div:nth-child(2){
+    display: grid;
+    border: 10px solid rgb(226, 229, 229);
+   margin-left: 10px;
+  text-align: center;
+}
+.grid-container > div:nth-child(4){
+    display: grid;
+    border: 10px solid rgb(226, 229, 229);
+   margin-left: 10px;
+  text-align: center;
+}
+.grid-container > div:nth-child(5){
+    display: grid;
+    border: 10px solid rgb(226, 229, 229);
+   margin-left: 10px;
+  text-align: center;
+}
+.grid-container > div:nth-child(7){
+    display: grid;
+    border: 10px solid rgb(226, 229, 229);
+   margin-left: 10px;
+  text-align: center;
+}
+.grid-container > div:nth-child(6){
+    display: grid;
+    border: 10px solid rgb(226, 229, 229);
+   margin-right: 10px;
+  text-align: center;
+  padding: 40px;
+}
+.grid-container > div:nth-child(8){
+    display: grid;
+    border: 10px solid rgb(226, 229, 229);
+   margin-right: 10px;
+  text-align: center;
+  padding: 40px;
+}
+.grid-container > div:nth-child(9){
+    display: grid;
+    border: 10px solid rgb(226, 229, 229);
+   margin-right: 10px;
+  text-align: center;
+ padding: 40px;
+}
+nav {
+   background-color: beige;
+   gap: 60px;
+   height: 150px;
+}
+
+
+/*responsive*/
+@media screen and (max-width: 980px) {
+    .grid-container{
+        display: block;
+        margin: 0 20px; 
+    }
+    
+}
+    
+@media screen and (max-width: 760px) {
+.grid-container{
+    display: block;
+    margin: 0 20px;
+    
+}
+}
